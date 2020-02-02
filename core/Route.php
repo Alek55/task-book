@@ -3,7 +3,7 @@
     class Route {
 
         public static function parseUrl() {
-            $ca_values = self::getControllerAndAction(); //получаем имена контроллера и экшена
+            $ca_values = self::getControllerAndAction();
             $controller = $ca_values[0]."Controller";
             $action = $ca_values[1]."Action";
 

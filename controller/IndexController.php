@@ -47,9 +47,5 @@
             return $this->redirect('/index');
         }
 
-        public function verifyadminAction() {
-            //$login = $this->request->;
-        }
-
     }
 ?>
