@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.task__item > div{
+    margin-right: 30px;
+}
+.task__panel{
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.task__panel li{
+    margin-right: 30px;
+}
+.task__panel li:last-child{
+    margin-right: 0px;
+}
+header{
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+header h1, header p{
+    margin: 0!important;
+}
+input, select, textarea, a{
+    outline: none;
+}
+textarea{
+    resize: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+.error{
+    color: red;
+}
+button.disabled{
+    cursor: default;
+}
+td.name{
+    width: 200px;
+}
+td.email{
+    width: 200px;
+}
+td.text{
+    width: 300px;
+}
+td.status{
+    width: 200px;
+}
